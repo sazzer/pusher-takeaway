@@ -38,9 +38,9 @@ class OrderNotifier(
                                 "data" to mapOf(
                                         "order" to order.id,
                                         "status" to order.status.name,
-                                        "itemsPending" to itemStatusCounts[OrderItemStatus.PENDING],
-                                        "itemsStarted" to itemStatusCounts[OrderItemStatus.STARTED],
-                                        "itemsFinished" to itemStatusCounts[OrderItemStatus.FINISHED]
+                                        "itemsPending" to (itemStatusCounts[OrderItemStatus.PENDING] ?: 0).toString(),
+                                        "itemsStarted" to (itemStatusCounts[OrderItemStatus.STARTED] ?: 0).toString(),
+                                        "itemsFinished" to (itemStatusCounts[OrderItemStatus.FINISHED] ?: 0).toString()
                                 )
                         )
                 ))
