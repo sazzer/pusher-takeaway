@@ -2,6 +2,8 @@
 
 Many business need to be very responsive to customer requests in order to be competitive. This works both ways - the business being informed immediately when a new order comes in, and the customer being informed as to the progress of their order.
 
+This repository is discussed at [Implement Push Notifications In Kotlin To Create A Food Delivery App](https://pusher.com/tutorials/push-notifications-kotlin-food-delivery).
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
